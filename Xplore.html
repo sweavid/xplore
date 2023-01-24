@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Xplore</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="./logo-removebg-preview.png" class="logo">
+            <ul>
+                <li class="li"><a href="#"><img src="./icons8-home-page-25.png">Home</a></li>
+                <li class="li"><a href="#"><img src="./icons8-info-24.png">About</a></li>
+                <li class="li"><a href="#"><img src="./icons8-services-24.png">Services</a></li>
+                <li class="li"><a href="#"><img src="./icons8-google-blog-search-24.png">Blog</a></li>
+                <li class="li"><a href="contact.html"><img src="./icons8-phone-message-24.png">Contact Us</a></li>
+            </ul>
+            <button class="btn"><img src="./icons8-airplane-take-off-32.png">Bookings</button>
+        </nav>
+        <div class="content">
+            <h1>Beautiful<br>places to explore</h1>
+            <p>Ensuring that the world Heritage sites sustain their outstanding universal value is an increasingly challenging mission.</p>
+            <form>
+                <input type="text" placeholder="Country name">
+                <button type="submit" class="btn">Search</button>
+            </form>
+        </div>
+        
+    </div>
+</body>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(./background.jpeg);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+.li img{
+    width: 20px;
+    align-items: center;
+ 
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color:#fff ;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn img{
+    width: 20px;
+    margin-right: 10px;
+}
+.content{
+    margin-top: 14%;
+    color: #fff;
+    max-width: 620px;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+.content form{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.content form input{
+    border: 0;
+outline: 0;
+width: 100%;
+font-size: 16px;
+padding-left: 10px;
+}
+.content form .btn{
+    font-size: 15px;
+    padding: 10px 30px;
+}
+</style>
+</html>
